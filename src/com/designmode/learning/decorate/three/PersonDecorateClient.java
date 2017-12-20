@@ -15,13 +15,16 @@ public class PersonDecorateClient {
         Shoes shoes = new Shoes();
         SportEquip sportEquip = new SportEquip();
 
-        concreteDecorate.setPerson(person);
+//        concreteDecorate.setPerson(person);
         tShirts.setPerson(concreteDecorate);
         pants.setPerson(tShirts);
         keepSafeEquipment.setPerson(pants);
         shoes.setPerson(keepSafeEquipment);
-        sportEquip.setPerson(shoes);
+        shoes.Show();
+//        sportEquip.setPerson(shoes);
+        sportEquip.setPerson(person);
         sportEquip.Show();
+
 
     }
 }
