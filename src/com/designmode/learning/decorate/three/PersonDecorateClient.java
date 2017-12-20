@@ -15,8 +15,7 @@ public class PersonDecorateClient {
         Shoes shoes = new Shoes();
         SportEquip sportEquip = new SportEquip();
 
-
-        concreteDecorate.setComponent(person);
+        concreteDecorate.setPerson(person);
         tShirts.setPerson(concreteDecorate);
         pants.setPerson(tShirts);
         keepSafeEquipment.setPerson(pants);

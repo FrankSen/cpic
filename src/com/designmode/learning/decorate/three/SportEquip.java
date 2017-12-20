@@ -5,15 +5,7 @@ package com.designmode.learning.decorate.three;
  */
 public class SportEquip extends DecorateMech {
 
-    @Override
-    public void setName(String name) {
-        super.setName(name);
-    }
 
-    @Override
-    public String getName() {
-        return super.getName();
-    }
 
     @Override
     public void Show() {
@@ -22,7 +14,7 @@ public class SportEquip extends DecorateMech {
     }
 
     public String sportEquip(){
-        String sportEquip ="6.拿上篮球，奔向篮球场~~~~~"+"\n 的"+getName();
+        String sportEquip ="6.拿上篮球，奔向篮球场~~~~~";
         return sportEquip;
     }
 }
