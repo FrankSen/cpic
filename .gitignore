@@ -3,3 +3,5 @@
 *.log
 *.iml
 *.class
+#ignore path
+/f/back4HD/back/sparkSource/desginmode/out/*
