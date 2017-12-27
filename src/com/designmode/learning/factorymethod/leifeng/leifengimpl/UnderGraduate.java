@@ -1,0 +1,31 @@
+package com.designmode.learning.factorymethod.leifeng.leifengimpl;
+
+import com.designmode.learning.factorymethod.leifeng.LeiFeng;
+
+/**
+ * Created by FrankSen on 2017/12/27.
+ */
+public class UnderGraduate implements LeiFeng {
+
+
+    @Override
+    public void wash() {
+        System.out.println("洗衣");
+
+    }
+
+    @Override
+    public void buySolid() {
+        System.out.println("买油");
+    }
+
+    @Override
+    public void helpThroughRoad() {
+        System.out.println("扶老奶奶过马路");
+    }
+
+    @Override
+    public void sweep() {
+        System.out.println("扫地");
+    }
+}
