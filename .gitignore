@@ -1,5 +1,5 @@
 #ignore end with log idea iml .class
-.idea
-.log
-.iml
-.class
+*.idea
+*.log
+*.iml
+*.class
