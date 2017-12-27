@@ -1,4 +1,4 @@
-package com.designmode.learning.proxy.porxyInterf;
+package com.designmode.learning.proxy;
 
 import com.designmode.learning.proxy.Girls;
 import com.designmode.learning.proxy.Proxy;
@@ -14,6 +14,11 @@ public class ProxyClient {
          *   任务：需求方对受众的需求任务，交给代理方来完成。
          *          在完成需求的过程中，所有为完成任务的所准备的物品均来自需求方。
          *          代理方代理需求，所以代理方使用的是需求方的物品。
+         *   核心定义：在访问对象时，引入一定的间接性，这种间接性可以实现多种用途。
+         *             如，1.将访问的对象设定权限，指定用户访问。实现对象的安全代理。
+         *                 2.远程代理
+         *                 3.虚拟代理
+         *
          * */
         Girls girls = new Girls();
         girls.setName("亲爱的FF");

@@ -8,6 +8,7 @@ import com.designmode.learning.proxy.porxyInterf.LoveBehive;
  */
 public class Proxy implements LoveBehive {
 
+    /**在代理类中注册追求方*/
     private Pursuer pursuer;
 
     public Proxy(Girls mm) {
